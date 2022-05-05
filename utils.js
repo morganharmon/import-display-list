@@ -1,6 +1,5 @@
 export function renderHat(hat) {
-    const div = document.getElementById('hats');
-
+    const div = document.createElement('div');
     const h1 = document.createElement('h1');
     h1.textContent = hat.type;
     const p = document.createElement('p');
