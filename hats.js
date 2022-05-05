@@ -1,18 +1,18 @@
 export const hats = [
     {
-        type: 'sombrero',
+        type: 'Sombrero',
         color: 'colorful',
         size: 'large',
         image: './assets/sombrero.jpg'
     },
     {
-        type: 'top hat',
+        type: 'Top hat',
         color: 'black',
         size: 'medium',
         image: './assets/tophat.jpg'
     },
     {
-        type: 'beanie',
+        type: 'Beanie',
         color: 'colorful',
         size: 'small',
         image: './assets/beanie.jpg'
