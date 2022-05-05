@@ -5,6 +5,7 @@ import { juices } from './juices.js';
 import { renderJuice } from './utils.js';
 
 const hatsDiv = document.getElementById('hats');
+const juiceDiv = document.getElementById('juices');
 
 // let state
 
@@ -12,4 +13,8 @@ const hatsDiv = document.getElementById('hats');
 
 for (let hat in hats) {
     hatsDiv.append(renderHat(hats[hat]));
+}
+
+for (let juice in juices) {
+    juiceDiv.append(renderJuice(juices[juice]));
 }
