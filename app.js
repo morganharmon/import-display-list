@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-
+import { hats } from './hats.js';
 // let state
 
 // set event listeners 
