@@ -15,3 +15,4 @@ test('renderHat returns a div containing hat properties', (expect) => {
     expect.equal(actual.outerHTML, expected);
 
 });
+

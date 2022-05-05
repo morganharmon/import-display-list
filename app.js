@@ -9,5 +9,6 @@ const hatsDiv = document.getElementById('hats');
 // set event listeners 
 
 
-
-// hatsDiv.append(renderHat(hats[0]));
+for (let hat in hats) {
+    hatsDiv.append(renderHat(hats[hat]));
+}
