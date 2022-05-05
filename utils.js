@@ -11,3 +11,15 @@ export function renderHat(hat) {
     return div;
 
 }
+
+export function renderJuice(juice) {
+    const div = document.createElement('div');
+    const h1 = document.createElement('h1');
+    h1.textContent = juice.type;
+    const p = document.createElement('p');
+    p.textContent = `This juice is ${juice.color} and has lots of ${juice.vitamins}`;
+
+    div.append(h1, p);
+    return div;
+
+}
