@@ -2,16 +2,19 @@ export const juices = [
     {
         type: 'Carrot',
         color: 'orange',
-        vitamins: 'beta-carotene'
+        vitamins: 'beta-carotene',
+        image: './assets/carrot-juice.webp'
     },
     {
         type: 'Apple',
-        color: 'red',
-        vitamins: 'vitamin B6'
+        color: 'brown',
+        vitamins: 'vitamin B6',
+        image: './assets/apple-juice.jpg'
     },
     {
         type: 'Orange',
         color: 'orange',
-        vitamins: 'vitamin C'
+        vitamins: 'vitamin C',
+        image: './assets/orange-juice.jpg'
     }
 ];

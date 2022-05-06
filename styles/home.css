@@ -1,1 +1,25 @@
 /* add home page styles here */
+
+.hat img {
+    height: 256px;
+}
+
+.juice img {
+    height: 256px;
+}
+
+.hat {
+    text-align: center;
+}
+
+#hats {
+    display: flex;
+}
+
+#juices {
+    display: flex;
+}
+
+.juice {
+    text-align: center;
+}
