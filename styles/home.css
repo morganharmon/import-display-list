@@ -8,6 +8,10 @@
     height: 256px;
 }
 
+.animal img {
+    height: 256px;
+}
+
 .hat {
     text-align: center;
 }
@@ -21,5 +25,13 @@
 }
 
 .juice {
+    text-align: center;
+}
+
+#animals {
+    display: flex;
+}
+
+.animal {
     text-align: center;
 }

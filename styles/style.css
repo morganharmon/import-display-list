@@ -59,6 +59,8 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    color: purple;
+    font-style: italic;
 }
 
 
